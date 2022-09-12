@@ -1,0 +1,37 @@
+body {
+    background-color: cornsilk;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.orizaba {
+    display: block;
+    width: 80%;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+.center {
+    display: flex;
+    height: 25px;
+}
+
+.right {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
