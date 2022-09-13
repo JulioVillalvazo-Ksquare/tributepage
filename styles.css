@@ -35,3 +35,60 @@ main {
     justify-content: space-around;
     width: 200px;
 }
+
+.blogs-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blogs-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
+    padding: 20px;
+    grid-gap: 5%;
+    list-style: none;
+}
+
+.blog {
+    background-color: orange;
+    border-radius: 20px 0 20px 0;
+    padding: 10px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4);
+}
+
+.blog-top h4 {
+    font-size: 14px;
+    margin-top: 2px;
+    font-weight: 300;
+    color: papayawhip;
+}
+
+.blog-top h5 {
+    font-size: 18px;
+    margin-top: 0;
+    color: papayawhip;
+}
+
+.blog-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog .blog-top img {
+    width: 100%;
+}
+
+.blog .blog-bottom p {
+    background-color: papayawhip;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.blog .blog-bottom ol {
+    background-color: papayawhip;
+    border-radius: 20px;
+    margin-top: 10px;
+}
